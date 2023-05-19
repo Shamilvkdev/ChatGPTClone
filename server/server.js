@@ -45,4 +45,4 @@ app.post('/', async (req, res) => {
   }
 });
 
-app.listen(3000, () => console.log('server started on http://localhost:3000'));
+app.listen(5050, () => console.log('server started on http://localhost:5050'));
