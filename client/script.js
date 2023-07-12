@@ -30,7 +30,7 @@ function typeText(element, text) {
         } else {
             clearInterval(interval)
         }
-    }, 20)
+    }, 25)
 }
 
 // without unique ID, typing text will work on every element
