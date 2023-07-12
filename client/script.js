@@ -77,7 +77,7 @@ const handleSubmit = async (e) => {
 
     loader(messageDiv)
 
-    const response = await fetch('http://localhost:5060', {
+    const response = await fetch('http://localhost:7070', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
